@@ -1,0 +1,41 @@
+{
+  "name": "ios-manifester",
+  "version": "1.0.0",
+  "description": "A simple, now-ready lambda, that returns customized manifest.plist file",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marcinczenko/ios-manifester.git"
+  },
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "author": "Marcin Czenko",
+  "license": "MIT",
+  "files": [
+    "lib",
+    "es"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.2.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.2.0",
+    "@babel/preset-env": "^7.2.3",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.12.0",
+    "standard": "^12.0.1"
+  },
+  "scripts": {
+    "build": "node ./tools/build.js"
+  },
+  "standard": {
+    "parser": "babel-eslint",
+    "ignore": [
+      "**/node_modules/**",
+      "**/lib/**",
+      "**/es/**"
+    ],
+    "envs": [
+      "es6"
+    ]
+  }
+}
