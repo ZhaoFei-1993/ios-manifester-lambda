@@ -1,6 +1,6 @@
 {
   "name": "ios-manifester-lambda",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple, now-ready lambda, that returns customizable manifest.plist file",
   "repository": {
     "type": "git",
@@ -13,6 +13,13 @@
   "files": [
     "lib",
     "es"
+  ],
+  "keywords": [
+    "ios enterprise distribution",
+    "manifest.plist",
+    "zeit",
+    "now",
+    "lambda"
   ],
   "devDependencies": {
     "@babel/cli": "^7.2.3",
