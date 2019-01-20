@@ -1,0 +1,12 @@
+{
+  "name": "example-deployment",
+  "version": "1.0.0",
+  "description": "Example of deployment of ios-manifester-lambda to zeit",
+  "main": "index.js",
+  "author": "Marcin Czenko",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "ios-manifester-lambda": "^1.0.0"
+  }
+}

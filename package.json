@@ -1,10 +1,10 @@
 {
-  "name": "ios-manifester",
-  "version": "1.0.1",
-  "description": "A simple, now-ready lambda, that returns customized manifest.plist file",
+  "name": "ios-manifester-lambda",
+  "version": "1.0.0",
+  "description": "A simple, now-ready lambda, that returns customizable manifest.plist file",
   "repository": {
     "type": "git",
-    "url": "https://github.com/marcinczenko/ios-manifester.git"
+    "url": "https://github.com/marcinczenko/ios-manifester-lambda.git"
   },
   "main": "lib/index.js",
   "module": "es/index.js",
